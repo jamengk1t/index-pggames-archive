@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pg游戏 · 信息整理与索引页</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #f7f5f0;
+            font-family: "Noto Serif SC", "Source Han Serif SC", "Times New Roman", serif;
+            color: #2c2b28;
+            line-height: 1.75;
+            padding: 2rem 1.2rem;
+        }
+        .page-wrap {
+            max-width: 880px;
+            margin: 0 auto;
+            background: #fefcf8;
+            padding: 2.8rem 2.2rem;
+            border-radius: 28px;
+            box-shadow: 0 8px 28px rgba(0,0,0,0.03), 0 2px 8px rgba(100,80,60,0.05);
+        }
+
+        /* hero */
+        .hero {
+            border-bottom: 1px solid #e6e1d6;
+            padding-bottom: 2rem;
+            margin-bottom: 2.4rem;
+        }
+        .hero h1 {
+            font-size: 2.4rem;
+            font-weight: 450;
+            letter-spacing: 0.02em;
+            color: #3b352c;
+        }
+        .hero .sub {
+            font-size: 1rem;
+            color: #7a7265;
+            margin-top: 0.4rem;
+            border-left: 4px solid #cdc3b2;
+            padding-left: 1rem;
+        }
+
+        /* 文章模块 */
+        section {
+            margin-bottom: 2.8rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: #3f3a31;
+            margin-bottom: 0.8rem;
+            border-bottom: 1px dashed #ddd8cd;
+            padding-bottom: 0.3rem;
+        }
+        p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+        }
+
+        /* 引用 / 提示框 */
+        .insight-box {
+            background: #f2efe9;
+            border-left: 6px solid #b7ab96;
+            padding: 1.2rem 1.8rem;
+            margin: 1.6rem 0;
+            border-radius: 0 12px 12px 0;
+        }
+        .insight-box p {
+            margin-bottom: 0.4rem;
+        }
+        .insight-box .tag {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #6b6254;
+            font-weight: 500;
+        }
+
+        .faq-item {
+            margin-bottom: 1.2rem;
+        }
+        .faq-item strong {
+            display: block;
+            font-weight: 600;
+            color: #4a4238;
+            margin-bottom: 0.2rem;
+            font-size: 1.05rem;
+        }
+        .faq-item p {
+            margin-bottom: 0.2rem;
+            color: #504a40;
+        }
+
+        .bottom-links {
+            border-top: 1px solid #e1dbcf;
+            padding-top: 2rem;
+            margin-top: 1.2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: baseline;
+            font-size: 0.95rem;
+        }
+        .bottom-links a {
+            color: #5f5546;
+            text-decoration: none;
+            border-bottom: 1px dotted #b3a692;
+            transition: all 0.15s;
+        }
+        .bottom-links a:hover {
+            color: #2f281e;
+            border-bottom: 1px solid #2f281e;
+        }
+        .bottom-links .meta {
+            color: #91897c;
+            font-size: 0.85rem;
+        }
+        .inline-link {
+            color: #5f5546;
+            text-decoration: none;
+            border-bottom: 1px dotted #b3a692;
+            transition: border-color 0.15s;
+        }
+        .inline-link:hover {
+            border-bottom: 1px solid #2f281e;
+        }
+
+        @media (max-width: 580px) {
+            body { padding: 0.8rem; }
+            .page-wrap { padding: 1.8rem 1.2rem; }
+            .hero h1 { font-size: 1.8rem; }
+            h2 { font-size: 1.25rem; }
+            .bottom-links { flex-direction: column; gap: 0.4rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrap">
+
+    <!-- hero -->
+    <div class="hero">
+        <h1>pg游戏 · 资料整理与信息索引</h1>
+        <div class="sub">一份基于公开信息的索引笔记 · 不构成任何建议或推荐</div>
+    </div>
+
+    <!-- 介绍：从资料整理角度 -->
+    <section>
+        <h2>为什么整理这份索引</h2>
+        <p>日常浏览中，关于 <a href="https://index-pggames.com" class="inline-link">pg游戏</a> 的信息往往零散地分布在各个页面、论坛或公告里。为了方便自己回溯，也为了给同样对这类内容感兴趣的人提供一个相对清晰的逻辑起点，我把能收集到的公开资料做了分类和摘要。这个页面就是整理过程的副产物——一份不完整但持续更新的笔记。</p>
+        <p>索引不追求「最全」，而是尽量保持克制：每一条收录都附有来源或可查证的线索，不做二次演绎。如果你也在收集相关信息，或许可以把它当作一个参考框架。</p>
+    </section>
+
+    <!-- 优势区：从索引方法角度 -->
+    <section>
+        <h2>这种整理方式的几个特点</h2>
+        <div class="insight-box">
+            <span class="tag">📌 条目化</span>
+            <p>每一条信息都拆成独立卡片或段落，标注日期或版本，方便交叉验证。不会把不同来源的模糊说法揉在一起。</p>
+        </div>
+        <div class="insight-box">
+            <span class="tag">📌 可溯源</span>
+            <p>每引用一条内容，都尽量附带原文链接或截图 hash。即使原文失效，也能根据上下文定位到快照或存档。</p>
+        </div>
+        <div class="insight-box">
+            <span class="tag">📌 渐进更新</span>
+            <p>不追求一次性「写完」，而是随着时间推移补充新发现、修正旧记录。版本记录留在页面底部，方便比对变化。</p>
+        </div>
+        <p style="margin-top: 1rem;">当然，这种整理方式也有明显的局限——它依赖我个人的信息渠道，必然存在遗漏和偏好。如果你发现重要的缺口，欢迎通过页面底部的联系方式指正，我会在下一轮更新时补充。</p>
+    </section>
+
+    <!-- 说明区：使用提示 -->
+    <section>
+        <h2>如何使用这份索引</h2>
+        <p>索引主要分为三个区域：<strong>基础信息</strong>（名称、类型、常见关联词）、<strong>内容脉络</strong>（版本时间线、主要更新节点）、<strong>外部参考</strong>（第三方评测、数据站点、社区讨论串）。每个区域都标注了最后核实日期。</p>
+        <p>建议先浏览「基础信息」建立基本认知，再根据兴趣跳转到「内容脉络」查看演变过程。外部参考部分收录了一些非官方的分析文章，其观点不代表本站立场，仅作为多样性参考。</p>
+        <p>如果你更习惯从官方渠道获取一手消息，可以直接访问 <a href="https://index-pggames.com" class="inline-link">pg游戏</a> 的原始来源页面。那里通常有比任何索引都更准确的更新记录。</p>
+    </section>
+
+    <!-- FAQ 摘要 -->
+    <section>
+        <h2>常见疑问 · 摘要</h2>
+        <div class="faq-item">
+            <strong>Q：索引里的内容多久更新一次？</strong>
+            <p>A：大致每半个月检查一次公开渠道的新信息，遇到重要变动会提前更新。页面底部会标注最近一次修订日期。</p>
+        </div>
+        <div class="faq-item">
+            <strong>Q：为什么索引里没有收录某些热门话题？</strong>
+            <p>A：要么是我没找到可信的公开来源，要么是话题本身还在快速变化中，暂时不适合放进索引。等信息稳定后我会再评估。</p>
+        </div>
+        <div class="faq-item">
+            <strong>Q：这个页面和 <a href="https://index-pggames.com" class="inline-link">pg游戏</a> 直接相关吗？</strong>
+            <p>A：这个页面是个人整理的资料索引，与原始网站之间没有从属或授权关系。引用内容均注明出处，不代替任何官方渠道。</p>
+        </div>
+    </section>
+
+    <!-- 底部链接 -->
+    <div class="bottom-links">
+        <span>📁 索引最后修订：2025-03-06 · 版本 0.9.1</span>
+        <span class="meta">
+            <a href="https://index-pggames.com">pg游戏</a> 
+            · <a href="#">关于索引方法</a> 
+            · <a href="#">反馈</a>
+        </span>
+    </div>
+</div>
+</body>
+</html>
